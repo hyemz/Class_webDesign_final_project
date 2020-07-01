@@ -1,0 +1,40 @@
+*{list-style:none; margin:0; padding:0;}
+	#s1{
+	width:100%; height:1000px; background:#FFF url(image/peterpan.jpg) top center no-repeat;}
+	#s2{
+	width:100%; height:1600px; background:#FFF url(image/g.jpg) top center no-repeat;}
+	#s3{
+	width:100%; height:1600px; background:#FFF url(image/a.jpg) top center no-repeat;}
+	h1{text-align:left; padding:300px 150px; word-spacing: -3px; line-height:-3em;font-size:30px; color:white;}
+	
+    .button{
+	width:100%; height:90px; color:#FFF; position:fixed; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;}
+	
+	.fixed{
+		background:rgba(0,0,0,0.5); transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;}
+	
+	.logo a{
+			font-size:50px; padding:15px 0 0 35px; float:left; color:#FFF; font-family: 'Open Sans',Arial,Helvetica,sans-serif; text-decoration:none;}
+			
+		.button ul{
+			float:right; padding:0 35px 0 0;}
+			
+			.button li{
+				float:left; text-align:center; width:100px; }
+				
+				.button li a{
+					text-decoration:none; color:#FFF; line-height:100px; font-family: 'Open Sans',Arial,Helvetica,sans-serif; font-size:14px;}
+					
+					.button li a:hover{
+						border-top:2px solid #FFF; padding-top:40px; color:#FFF;
+						-webkit-transition-duration:500ms;
+						}
+						
+					.button li:nth-child(2) a:hover{
+						border-top:2px solid #6FF; padding-top:40px; color:#6FF;
+						-webkit-transition-duration:500ms;}
+						
+					.button li:nth-child(3) a:hover{
+						border-top:2px solid #9F0; padding-top:40px; color:#9F0;
+						-webkit-transition-duration:500ms;}
+						
